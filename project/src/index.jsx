@@ -6,10 +6,11 @@ import ReactDom from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const appContainer = document.querySelector('#app');
+let kusokKoda = <div>
+  <h1>Hello React</h1>
+</div>
 
 ReactDom.render(
-  <div>
-    <h1>Hello React</h1>
-  </div>,
+  kusokKoda,
   appContainer
 )
