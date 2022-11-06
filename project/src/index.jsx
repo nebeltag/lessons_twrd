@@ -7,6 +7,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const appContainer = document.querySelector('#app');
 
+let names = ['Vova', 'Dasha', 'Masha', 'Kolya'];
+
+import TestContainer from './components/containers/container/container.jsx'
+// import { ProgressPlugin } from "webpack";
+
+ReactDom.render(
+  <div>
+    <TestContainer names={names} />
+  </div>,
+  appContainer
+)
+
 //<<<<<<<<<<<Lesson2_part1>>>>>>>>>>>>>>>
 
 // let kusokKoda = <div>
